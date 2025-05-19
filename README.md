@@ -49,6 +49,7 @@ The system consists of three main units working together to achieve voice-contro
      Powers the entire system with safe charging.
 
 
+
 ## Installation and Setup
 
 **TRAINING CODE Highlights**
@@ -140,3 +141,14 @@ The project demonstrates that voice-controlled navigation is possible and practi
 4. **Shubh Srivastava**, **Rajanish Singh**.  
    *Voice Controlled Robot Car Using Arduino*.  
    *International Research Journal of Engineering and Technology (IRJET)*, e-ISSN: 2395-0056, May 2020.
+## Data Flow Summary:
+```mermaid
+flowchart TD
+    A[Start] --> B[Power ON]
+    B --> C[System Initialization]
+    C --> D{Voice Detected?}
+    D -- Yes --> E[Process Voice Command]
+    E --> F{Valid Command?}
+    F -- Yes --> G[Execute Command]
+    G --> H[END]
+'''
