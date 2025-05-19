@@ -1,6 +1,3 @@
-## Data Flow And circuit Disgram
-## Data Flow Summary:
-
 ```mermaid
 flowchart TD
     A[Start] --> B[Power ON]
